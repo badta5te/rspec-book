@@ -63,11 +63,13 @@ GEM
       rubocop-factory_bot (~> 2.22)
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
+    sequel (5.71.0)
     sinatra (3.1.0)
       mustermann (~> 3.0)
       rack (~> 2.2, >= 2.2.4)
       rack-protection (= 3.1.0)
       tilt (~> 2.0)
+    sqlite3 (1.6.3-x86_64-darwin)
     tilt (2.2.0)
     unicode-display_width (2.4.2)
 
@@ -80,7 +82,9 @@ DEPENDENCIES
   rspec
   rubocop
   rubocop-rspec
+  sequel (~> 5.71)
   sinatra
+  sqlite3 (~> 1.6)
 
 BUNDLED WITH
-   2.4.14
+   2.4.7
